@@ -13,14 +13,14 @@ module.exports = function(grunt){
         cssmin: {  
             files:{
                 src:'./app.css',
-                dest:'dist/index.css'
+                dest:'dist/app.css'
             }
           },
         uglify: {
             // my_target:{
               files: {
                 src:'./app.js',
-                dest:'dist/index.js'
+                dest:'dist/app.js'
               } 
             // }
         }
